@@ -1,0 +1,11 @@
+To install, make sure your Minecraft: Java Edition version is 1.17 or 1.17.1.
+
+- Download this as a .zip folder, then unzip the folder.
+
+- Create a new world, click "Data Packs"
+
+- Drag the unzipped folder into the designated area.
+
+- Load the world.
+
+To install on a pre-existing world, simple download the .zip, untip the folder, then place the unzipped folder in the datapacks folder. All new chunks will have the new worldgen.
