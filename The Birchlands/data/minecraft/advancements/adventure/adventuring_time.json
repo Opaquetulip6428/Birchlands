@@ -1,0 +1,181 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_boots",
+        "nbt": "{Damage:0}"
+      },
+      "title": {
+        "translate": "advancements.adventure.adventuring_time.title"
+      },
+      "description": {
+        "translate": "advancements.adventure.adventuring_time.description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "criteria": {
+      "minecraft:badlands": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:badlands"
+          }
+        }
+      },
+      "minecraft:badlands_plateau": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:badlands_plateau"
+          }
+        }
+      },
+      "minecraft:beach": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:beach"
+          }
+        }
+      },
+      "minecraft:birch_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:birch_forest"
+          }
+        }
+      },
+      "minecraft:birch_forest_hills": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:birch_forest_hills"
+          }
+        }
+      },
+      "minecraft:desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:desert"
+          }
+        }
+      },
+      "minecraft:jungle_edge": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:jungle_edge"
+          }
+        }
+      },
+      "minecraft:lukewarm_ocean": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:lukewarm_ocean"
+          }
+        }
+      },
+      "minecraft:savanna": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:savanna"
+          }
+        }
+      },
+      "minecraft:warm_ocean": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:warm_ocean"
+          }
+        }
+      },
+      "minecraft:wooded_badlands_plateau": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:wooded_badlands_plateau"
+          }
+        }
+      },
+      "minecraft:shattered_savanna": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:shattered_savanna"
+          }
+        }
+      },
+      "minecraft:shattered_savanna_plateau": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:shattered_savanna_plateau"
+          }
+        }
+      },
+      "minecraft:modified_wooded_badlands_plateau": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:modified_wooded_badlands_plateau"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:badlands"
+      ],
+      [
+        "minecraft:badlands_plateau"
+      ],
+      [
+        "minecraft:beach"
+      ],
+      [
+        "minecraft:birch_forest"
+      ],
+      [
+        "minecraft:birch_forest_hills"
+      ],
+      [
+        "minecraft:desert"
+      ],
+      [
+        "minecraft:jungle_edge"
+      ],
+      [
+        "minecraft:lukewarm_ocean"
+      ],
+      [
+        "minecraft:savanna"
+      ],
+      [
+        "minecraft:warm_ocean"
+      ],
+      [
+        "minecraft:wooded_badlands_plateau"
+      ],
+      [
+        "minecraft:modified_wooded_badlands_plateau"
+      ],
+      [
+        "minecraft:shattered_savanna"
+      ],
+      [
+        "minecraft:shattered_savanna_plateau"
+      ]
+    ],
+    "rewards": {
+      "experience": 500
+    }
+  }
+  
