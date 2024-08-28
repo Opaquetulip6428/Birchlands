@@ -11,23 +11,24 @@
     "has_ceiling": false,
     "coordinate_scale": 16,
     "ambient_light": 0,
-    "logical_height": 128,
+    "logical_height": 256,
+    "effects": "minecraft:overworld",
     "infiniburn": "minecraft:infiniburn_nether",
     "min_y": -64,
-    "height": 256
+    "height": 384
   },
   "generator": {
     "type": "minecraft:noise",
     "seed": 0,
     "settings": {
       "name": "minecraft:nether",
-      "bedrock_roof_position": -74,
+      "bedrock_roof_position": -10000,
       "bedrock_floor_position": 0,
-      "sea_level": 0,
-      "min_surface_level": 0,
+      "sea_level": -55,
+      "min_surface_level": -16,
       "disable_mob_generation": false,
-      "noise_caves_enabled": false,
-      "noodle_caves_enabled": false,
+      "noise_caves_enabled": true,
+      "noodle_caves_enabled": true,
       "aquifers_enabled": false,
       "deepslate_enabled": true,
       "ore_veins_enabled": true,
@@ -35,16 +36,16 @@
         "Name": "minecraft:stone"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
+        "Name": "minecraft:lava",
         "Properties": {
           "level": "0"
         }
       },
       "noise": {
         "min_y": -64,
-        "height": 192,
+        "height": 256,
         "density_factor": 0.75,
-        "density_offset": -0.46875,
+        "density_offset": -0.7,
         "size_horizontal": 1,
         "size_vertical": 2,
         "simplex_surface_noise": true,
@@ -101,28 +102,28 @@
       "type": "minecraft:multi_noise",
       "seed": 0,
       "altitude_noise": {
-        "firstOctave": -7,
+        "firstOctave": -10,
         "amplitudes": [
           1,
           1
         ]
       },
       "temperature_noise": {
-        "firstOctave": -7,
+        "firstOctave": -10,
         "amplitudes": [
           1,
           1
         ]
       },
       "humidity_noise": {
-        "firstOctave": -7,
+        "firstOctave": -10,
         "amplitudes": [
           1,
           1
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -7,
+        "firstOctave": -10,
         "amplitudes": [
           1,
           1
@@ -130,9 +131,29 @@
       },
       "biomes": [
         {
-          "biome": "minecraft:savanna",
+          "biome": "minecraft:swamp",
+          "parameters": {
+            "altitude": -0.95,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.95
+          }
+        },
+        {
+          "biome": "minecraft:dark_forest",
           "parameters": {
             "altitude": 0,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "minecraft:savanna",
+          "parameters": {
+            "altitude": 0.15,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -208,9 +229,18 @@
             "weirdness": 0,
             "offset": 0
           }
+        },
+        {
+          "biome": "minecraft:dark_forest_hills",
+          "parameters": {
+            "altitude": 0.775,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
         }
       ]
     }
   }
 }
-

@@ -1,6 +1,6 @@
 {
     "surface_builder": "minecraft:desert",
-    "depth": 0.525,
+    "depth": 0.5,
     "scale": 0.025,
     "temperature": 2,
     "downfall": 0,
@@ -35,7 +35,7 @@
           "maxCount": 4
         },
         {
-          "type": "minecraft:zombie",
+          "type": "minecraft:husk",
           "weight": 19,
           "minCount": 4,
           "maxCount": 4
@@ -53,18 +53,6 @@
           "maxCount": 4
         },
         {
-          "type": "minecraft:blaze",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:magma_cube",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
           "type": "minecraft:enderman",
           "weight": 10,
           "minCount": 1,
@@ -75,12 +63,6 @@
           "weight": 5,
           "minCount": 1,
           "maxCount": 1
-        },
-        {
-          "type": "minecraft:husk",
-          "weight": 80,
-          "minCount": 4,
-          "maxCount": 4
         }
       ],
       "creature": [
@@ -119,17 +101,12 @@
     },
     "spawn_costs": {},
     "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon",
-        "birchlands:deepslate_nether_cave"
-      ]
+      "air": []
     },
     "features": [
       [],
       [],
       [
-        "minecraft:amethyst_geode"
       ],
       [
         "minecraft:fossil",

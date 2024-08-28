@@ -1,6 +1,6 @@
 {
     "surface_builder": "minecraft:grass",
-    "depth": 0.4,
+    "depth": 0.5,
     "scale": 0.01,
     "temperature": 1.2,
     "downfall": 0,
@@ -142,21 +142,12 @@
     },
     "spawn_costs": {},
     "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon",
-        "birchlands:deepslate_nether_cave"
-      ]
+      "air": []
     },
     "features": [
       [],
-      [
-        "minecraft:lake_water",
-        "minecraft:lake_lava"
-      ],
-      [
-        "minecraft:amethyst_geode"
-      ],
+      [],
+      [],
       [
         "minecraft:monster_room"
       ],

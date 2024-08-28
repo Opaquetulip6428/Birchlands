@@ -1,6 +1,6 @@
 {
     "surface_builder": "minecraft:badlands",
-    "depth": 0.475,
+    "depth": 0.5,
     "scale": 0.1,
     "temperature": 2,
     "downfall": 0,
@@ -35,7 +35,7 @@
           "maxCount": 4
         },
         {
-          "type": "minecraft:zombie",
+          "type": "minecraft:husk",
           "weight": 95,
           "minCount": 4,
           "maxCount": 4
@@ -50,24 +50,6 @@
           "type": "minecraft:skeleton",
           "weight": 100,
           "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:blaze",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:magma_cube",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:wither_skeleton",
-          "weight": 10,
-          "minCount": 1,
           "maxCount": 4
         },
         {
@@ -106,18 +88,12 @@
     },
     "spawn_costs": {},
     "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon",
-        "birchlands:deepslate_nether_cave"
-      ]
+      "air": []
     },
     "features": [
       [],
       [],
-      [
-        "minecraft:amethyst_geode"
-      ],
+      [],
       [
         "minecraft:monster_room"
       ],

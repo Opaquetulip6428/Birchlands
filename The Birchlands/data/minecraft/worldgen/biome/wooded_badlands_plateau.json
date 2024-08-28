@@ -30,13 +30,13 @@
       "monster": [
         {
           "type": "minecraft:spider",
-          "weight": 100,
+          "weight": 15,
           "minCount": 4,
           "maxCount": 4
         },
         {
-          "type": "minecraft:zombie",
-          "weight": 95,
+          "type": "minecraft:husk",
+          "weight": 15,
           "minCount": 4,
           "maxCount": 4
         },
@@ -48,33 +48,9 @@
         },
         {
           "type": "minecraft:skeleton",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:blaze",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:magma_cube",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:piglin",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:piglin_brute",
           "weight": 5,
-          "minCount": 1,
-          "maxCount": 1
+          "minCount": 4,
+          "maxCount": 4
         }
       ],
       "creature": [],
@@ -106,11 +82,7 @@
     },
     "spawn_costs": {},
     "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon",
-        "birchlands:deepslate_nether_cave"
-      ]
+      "air": []
     },
     "features": [
       [],

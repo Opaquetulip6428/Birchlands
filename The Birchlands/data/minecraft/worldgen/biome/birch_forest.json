@@ -1,7 +1,7 @@
 {
   "surface_builder": "minecraft:grass",
-  "depth": 0.25,
-  "scale": 0.05,
+  "depth": 0.4,
+  "scale": 0.015,
   "temperature": 0.6,
   "downfall": 0.6,
   "precipitation": "rain",
@@ -25,6 +25,32 @@
     "minecraft:ruined_portal"
   ],
   "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -33,13 +59,13 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:goat",
+        "type": "minecraft:pig",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:rabbit",
+        "type": "minecraft:chicken",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
@@ -77,7 +103,24 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:creeper": {
+      "energy_budget": 0.25,
+      "charge": 1
+    },
+    "minecraft:skeleton": {
+      "energy_budget": 0.25,
+      "charge": 1
+    },
+    "minecraft:zombie": {
+      "energy_budget": 0.2,
+      "charge": 1.2
+    },
+    "minecraft:spider": {
+      "energy_budget": 0.25,
+      "charge": 1.25
+    }
+  },
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -87,37 +130,32 @@
   "features": [
     [],
     [],
-    [
-      "minecraft:amethyst_geode"
-    ],
+    [],
     [
       "minecraft:monster_room"
     ],
     [
-      "minecraft:lush_caves_vegetation",
-      "minecraft:lush_caves_clay",
-      "minecraft:lush_caves_ceiling_vegetation"
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:lush_caves_vegetation"
     ],
     [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
       "minecraft:ore_andesite",
       "minecraft:ore_tuff",
       "minecraft:ore_deepslate",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_lapis",
-      "minecraft:ore_copper",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone"
+    ],
     [
       "minecraft:forest_flower_vegetation",
       "minecraft:glow_lichen",
@@ -136,4 +174,3 @@
     ]
   ]
 }
-  
