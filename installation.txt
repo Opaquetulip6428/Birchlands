@@ -11,3 +11,5 @@ To install, make sure your Minecraft: Java Edition version is 1.17 or 1.17.1.
 - Load the world.
 
 To install on a pre-existing world, simple download the .zip, untip the folder, then place the "The Birchlands" folder in the datapacks folder. All new chunks will have the new worldgen.
+
+This will also require this version of the Datapack Portals mod to be fully functional. (https://modrinth.com/mod/datapackportals/version/1.1.0-1.17) The pack should still load without it, but you won't be able to access the new dimension.
