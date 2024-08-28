@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:smooth_quartz",
+    "dim": "birchlands:surface_nether",
+    "r": 240,
+    "g": 30,
+    "b": 30,
+    "ignitionType": "FLUID",
+    "ignitionSource": "minecraft:lava"
+}

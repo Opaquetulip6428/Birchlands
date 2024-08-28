@@ -1,0 +1,73 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 10,
+              "max_inclusive": 25
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "absolute": -64
+                    },
+                    "max_inclusive": {
+                      "absolute": 45
+                    }
+                  }
+                }
+              },
+              "feature": {
+                "type": "minecraft:ore",
+                "config": {
+                  "size": 12,
+                  "discard_chance_on_air_exposure": 0,
+                  "targets": [
+                    {
+                      "target": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "minecraft:deepslate_ore_replaceables"
+                      },
+                      "state": {
+                        "Name": "minecraft:quartz_block"
+                      }
+                    },
+                    {
+                      "target": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "minecraft:base_stone_overworld"
+                      },
+                      "state": {
+                        "Name": "minecraft:netherrack"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
